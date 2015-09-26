@@ -1,0 +1,58 @@
+<!-- Contact Profile Edit Delete and Add Screen -->
+<h2 class="page-header text-center">{{profile.bannerText}}</h2>
+<form role="form" class="form-horizontal contract-form" name="contactForm">
+    <div class="form-group" ng-class="{ 'has-error': contactForm.name.$touched && contactForm.name.$invalid }">
+        <label class="col-sm-4 control-label">Full name:</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" required name="name" ng-model="profile.selprofile.name">
+            <div ng-messages="contactForm.name.$error" ng-if="contactForm.name.$touched" class="bg-danger">
+                <div ng-message="required">Please provide a contact name.</div>
+            </div>
+        </div>
+    </div>
+    <div class="form-group" ng-class="{ 'has-error': contactForm.email.$touched && contactForm.email.$invalid }">
+        <label class="col-sm-4 control-label">Email address:</label>
+        <div class="col-sm-6">
+            <input type="email" class="form-control" required name="email" ng-model="profile.selprofile.email">
+            <div ng-messages="contactForm.email.$error" ng-if="contactForm.email.$touched" class="bg-danger">
+                <div ng-message="required">Please provide an email.</div>
+                <div ng-message="email">Please provide a valid email.</div>
+            </div>
+        </div>
+    </div>
+    <div class="form-group"  ng-class="{ 'has-error': contactForm.tel.$touched && contactForm.tel.$invalid }">
+        <label class="col-sm-4 control-label">Telephone number:</label>
+        <div class="col-sm-6">
+            <input type="tel" class="form-control " required name="tel" ng-model="profile.selprofile.tel">
+            <div ng-messages="contactForm.tel.$error" ng-if="contactForm.tel.$touched" class="bg-danger">
+                <div ng-message="required">Please provide a telephone number.</div>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-4 control-label">Twitter handle:</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" ng-model="profile.selprofile.twitter">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-4 control-label">Facebook:</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" ng-model="profile.selprofile.facebook">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-4 control-label">LinkedIn:</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" ng-model="profile.selprofile.linkedIn">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-4 col-sm-3">
+            <button type="submit" class="btn btn-outline btn-lg btn-block" ng-disabled="contactForm.$invalid" ng-click="profile.editaddProfile()" ng-model="contactForm.$invalid">Submit</button>
+        </div>
+        <div class="col-sm-3">
+            <button type="" class="btn btn-outline btn-lg btn-block" ng-click="profile.cancel()">Cancel</button>
+        </div>
+    </div>
+</form>

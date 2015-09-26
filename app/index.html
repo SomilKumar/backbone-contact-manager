@@ -1,0 +1,44 @@
+<!-- Contact Manager Application -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contact Manager App</title>
+    <!-- CSS -->
+    <meta name="viewport" content="initial-scale=1" />
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body ng-app="contactManagerApp">
+    <header>
+        <div class="container-fluid app-header">
+            <h1>Contact Manager</h1>
+            <h4>Simple AngularJs example application.</h4>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
+                <div ui-view style="padding-top: 10px;">
+                    <div ui-view></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<!-- Angular Dependencies -->
+<script src="libs/angular.js"></script>
+<script src="libs/angular-ui-router.js"></script>
+<script src="libs/angular-messages.js"></script>
+<script src="libs/ui-bootstrap-tpls-0.13.4.js"></script>
+<!-- Contact App Modules -->
+<script src="src/index.js"></script>
+<script src="src/commons/mainController.js"></script>
+<script src="src/commons/syncDataService.js"></script>
+<script src="src/contactProfile/contactProfileDirective.js"></script>
+<script src="src/contactProfile/contactProfileController.js"></script>
+
+</html>

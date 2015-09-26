@@ -1,0 +1,27 @@
+<!-- contact Profile Template -->
+<div class="col-sm-4 col-md-4">
+    <img ng-src="{{contact.avatar}}" alt="contact image" class="img-circle img-responsive" />
+</div>
+<div class="col-sm-8 col-md-8">
+    <h4>{{contact.name}}</h4>
+    <p>
+        <i class="glyphicon glyphicon-envelope padded-icon-right"></i>{{contact.email}}
+        <br />
+        <i class="glyphicon glyphicon-earphone padded-icon-right"></i>{{contact.tel}}
+        <br />
+        <br/>
+        <button type="button" class="btn btn-default" ng-click="contacts.addToFavorites(contact)" ng-class="{'favbtn':contact.favourite}" tooltip-placement="bottom" tooltip="Add to favorite contacts">
+            <span class="glyphicon glyphicon-star" aria-hidden="true" ng-class="{'favicon': contact.favourite}"></span>
+        </button>
+        <button type="button" class="btn btn-default" ui-sref="edit({id:contact.id})" tooltip-placement="bottom" tooltip="Edit contact.">
+            <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+        </button>
+        <button type="button" class="btn btn-default" ng-click="contacts.deleteContact(contact)" tooltip-placement="bottom" tooltip="Delete contact.">
+            <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+        </button>
+        </br>
+        </br>
+</div>
+<div class="col-sm-12 col-md-12 ">
+    <hr>
+</div>

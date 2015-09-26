@@ -1,0 +1,37 @@
+{
+  "name": "ContactManagerApp",
+  "version": "1.0.0",
+  "description": "Simple Contact Manager App using angularjs ",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "angular": "^1.4.6",
+    "gulp": "^3.9.0",
+    "gulp-util": "^3.0.6",
+    "gulp-webserver": "^0.9.1",
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.13.10",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-coverage": "^0.5.2",
+    "karma-jasmine": "^0.3.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SomilKumar/ContactsApp.git"
+  },
+  "keywords": [
+    "contact",
+    "manager",
+    "app",
+    "angularjs"
+  ],
+  "author": "Somil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SomilKumar/ContactsApp/issues"
+  },
+  "homepage": "https://github.com/SomilKumar/ContactsApp"
+}
