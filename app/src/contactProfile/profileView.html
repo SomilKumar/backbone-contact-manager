@@ -1,4 +1,5 @@
 <!-- Contact Profile Edit Delete and Add Screen -->
+
 <h2 class="page-header text-center">{{profile.bannerText}}</h2>
 <form role="form" class="form-horizontal contract-form" name="contactForm">
     <div class="form-group" ng-class="{ 'has-error': contactForm.name.$touched && contactForm.name.$invalid }">
@@ -20,12 +21,14 @@
             </div>
         </div>
     </div>
-    <div class="form-group"  ng-class="{ 'has-error': contactForm.tel.$touched && contactForm.tel.$invalid }">
+    <div class="form-group" ng-class="{ 'has-error': contactForm.tel.$touched && contactForm.tel.$invalid }">
         <label class="col-sm-4 control-label">Telephone number:</label>
         <div class="col-sm-6">
-            <input type="tel" class="form-control " required name="tel" ng-model="profile.selprofile.tel">
+            <input type="tel" class="form-control " required name="tel" ng-model="profile.selprofile.tel"
+            ng-pattern="/(\d|\W){10,}/">
             <div ng-messages="contactForm.tel.$error" ng-if="contactForm.tel.$touched" class="bg-danger">
                 <div ng-message="required">Please provide a telephone number.</div>
+                <div ng-message="pattern">Must be a valid 10 digit telephone number.</div>
             </div>
         </div>
     </div>

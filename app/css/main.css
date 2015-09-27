@@ -13,12 +13,6 @@
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#563d7c', endColorstr='#6F5499', GradientType=0);
 }
 
-.divider {
-    padding-top: 20px;
-    border-bottom: 2px solid grey;
-    opacity: 50%;
-}
-
 .padded-icon-right {
     padding-right: 5px;
 }
@@ -27,27 +21,36 @@
     background-color: #63498A;
 }
 
-.favicon{
-    color:yellow;
+.favbtn:hover {
+    background-color: none;
+    border-color: none;
+}
+
+.favicon {
+    color: yellow;
 }
 
 a {
-  color: #563d7c;
+    color: #563d7c;
 }
 
 a:hover,
 a:focus {
-  color: #1d1429;
+    color: #1d1429;
 }
 
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active {
+    color: #fff;
+    background-color: #563d7c;
+    border-color: #563d7c;
+}
 
 .btn-outline:hover,
 .btn-outline:focus,
 .btn-outline:active {
-  color: #fff;
-  background-color: #563d7c;
-  border-color: #563d7c;
+    color: #fff;
+    background-color: #563d7c;
+    border-color: #563d7c;
 }
-
-
-

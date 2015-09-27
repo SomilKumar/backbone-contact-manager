@@ -5,7 +5,6 @@
     "email": "abrown0@aol.com",
     "avatar":"./img/1.jpg",
     "favourite": true,
-    "birthday": "28/03/2004",
     "twitter":"http://twitter.com",
     "facebook":"http://facebook.com",
     "linkedIn":"http://linkenIn.com"
@@ -16,7 +15,6 @@
     "email": "kwhite1@timesonline.co.uk",
     "avatar":"./img/2.jpg",
     "favourite": true,
-    "birthday": "16/04/1997",
     "twitter":"http://twitter.com",
     "facebook":"http://facebook.com",
     "linkedIn":"http://linkenIn.com"
@@ -27,7 +25,6 @@
     "email": "kbarnes2@wikia.com",
     "avatar":"./img/3.jpg",
     "favourite": false,
-    "birthday": "05/02/2014",
     "twitter":"http://twitter.com",
     "facebook":"http://facebook.com",
     "linkedIn":"http://linkenIn.com"
@@ -38,7 +35,6 @@
     "email": "dwells3@foxnews.com",
     "avatar":"./img/4.jpg",
     "favourite": false,
-    "birthday": "02/11/2012",
     "twitter":"http://twitter.com",
     "facebook":"http://facebook.com",
     "linkedIn":"http://linkenIn.com"
@@ -49,7 +45,6 @@
     "email": "jlawson4@fc2.com",
     "avatar":"./img/5.jpg",
     "favourite": false,
-    "birthday": "27/07/2008",
     "twitter":"http://twitter.com",
     "facebook":"http://facebook.com",
     "linkedIn":"http://linkenIn.com"
@@ -60,7 +55,6 @@
     "email": "emontgomery5@hotmail.com",
     "avatar":"./img/6.jpg",
     "favourite": false,
-    "birthday": "14/06/1995",
     "twitter":"http://twitter.com",
     "facebook":"http://facebook.com",
     "linkedIn":"http://linkenIn.com"
@@ -71,7 +65,6 @@
     "email": "jalvarez6@feedburner.com",
     "avatar":"./img/7.jpg",
     "favourite": false,
-    "birthday": "06/07/2014",
     "twitter":"http://twitter.com",
     "facebook":"http://facebook.com",
     "linkedIn":"http://linkenIn.com"
@@ -82,7 +75,6 @@
     "email": "kpatterson7@clickbank.net",
     "avatar":"./img/8.jpg",
     "favourite": false,
-    "birthday": "17/04/2015",
     "twitter":"http://twitter.com",
     "facebook":"http://facebook.com",
     "linkedIn":"http://linkenIn.com"
@@ -93,7 +85,6 @@
     "email": "bmedina8@github.io",
     "avatar":"./img/9.jpg",
     "favourite": false,
-    "birthday": "21/02/2015",
     "twitter":"http://twitter.com",
     "facebook":"http://facebook.com",
     "linkedIn":"http://linkenIn.com"
@@ -104,7 +95,6 @@
     "email": "tcunningham9@vk.com",
     "avatar":"./img/10.jpg",
     "favourite": true,
-    "birthday": "10/04/1996",
     "twitter":"http://twitter.com",
     "facebook":"http://facebook.com",
     "linkedIn":"http://linkenIn.com"
@@ -115,7 +105,6 @@
     "email": "ahansena@archive.org",
     "avatar":"./img/11.jpg",
     "favourite": false,
-    "birthday": "10/04/2005",
     "twitter":"http://twitter.com",
     "facebook":"http://facebook.com",
     "linkedIn":"http://linkenIn.com"
@@ -126,7 +115,6 @@
     "email": "jhowardb@nydailynews.com",
     "avatar":"./img/12.jpg",
     "favourite": false,
-    "birthday": "05/06/2005",
     "twitter":"http://twitter.com",
     "facebook":"http://facebook.com",
     "linkedIn":"http://linkenIn.com"
@@ -137,7 +125,6 @@
     "email": "pgilbertc@vinaora.com",
     "avatar":"./img/13.jpg",
     "favourite": true,
-    "birthday": "18/03/2009",
     "twitter":"http://twitter.com",
     "facebook":"http://facebook.com",
     "linkedIn":"http://linkenIn.com"
@@ -148,7 +135,6 @@
     "email": "jgonzalesd@example.com",
     "avatar":"./img/14.jpg",
     "favourite": true,
-    "birthday": "19/05/2001",
     "twitter":"http://twitter.com",
     "facebook":"http://facebook.com",
     "linkedIn":"http://linkenIn.com"
@@ -159,7 +145,6 @@
     "email": "falvareze@yale.edu",
     "avatar":"./img/15.jpg",
     "favourite": false,
-    "birthday": "31/07/2009",
     "twitter":"http://twitter.com",
     "facebook":"http://facebook.com",
     "linkedIn":"http://linkenIn.com"
@@ -171,7 +156,6 @@
     "avatar":"./img/6.jpg",
    
     "favourite": true,
-    "birthday": "13/04/2006",
     "twitter":"http://twitter.com",
     "facebook":"http://facebook.com",
     "linkedIn":"http://linkenIn.com"
@@ -182,7 +166,6 @@
     "email": "lbanksg@bing.com",
      "avatar":"./img/7.jpg",
     "favourite": true,
-    "birthday": "27/07/1996",
     "twitter":"http://twitter.com",
     "facebook":"http://facebook.com",
     "linkedIn":"http://linkenIn.com"
@@ -193,7 +176,6 @@
     "email": "areidh@ow.ly",
      "avatar":"./img/8.jpg",
     "favourite": false,
-    "birthday": "02/11/1998",
     "twitter":"http://twitter.com",
     "facebook":"http://facebook.com",
     "linkedIn":"http://linkenIn.com"
@@ -204,7 +186,6 @@
     "email": "cperkinsi@cnet.com",
      "avatar":"./img/1.jpg",
     "favourite": true,
-    "birthday": "28/07/2005",
     "twitter":"http://twitter.com",
     "facebook":"http://facebook.com",
     "linkedIn":"http://linkenIn.com"
@@ -215,7 +196,6 @@
     "email": "mperryj@bbc.co.uk",
      "avatar":"./img/2.jpg",
     "favourite": true,
-    "birthday": "29/07/1999",
     "twitter":"http://twitter.com",
     "facebook":"http://facebook.com",
     "linkedIn":"http://linkenIn.com"

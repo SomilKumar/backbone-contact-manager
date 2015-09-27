@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for src\commons\syncDataService.js</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../../prettify.css">
+    <link rel="stylesheet" href="../../base.css">
+    <style type='text/css'>
+        div.coverage-summary .sorter {
+            background-image: url(../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class="header high">
+    <h1>Code coverage report for <span class="entity">src\commons\syncDataService.js</span></h1>
+    <h2>
+        Statements: <span class="metric">100% <small>(40 / 40)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Branches: <span class="metric">100% <small>(4 / 4)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Functions: <span class="metric">100% <small>(10 / 10)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Lines: <span class="metric">100% <small>(40 / 40)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Ignored: <span class="metric"><span class="ignore-none">none</span></span> &nbsp;&nbsp;&nbsp;&nbsp;
+    </h2>
+    <div class="path"><a href="../../index.html">All files</a> &#187; <a href="index.html">src/commons/</a> &#187; syncDataService.js</div>
+</div>
+<div class="body">
+<pre><table class="coverage">
+<tr><td class="line-count">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79</td><td class="line-coverage"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">18</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">18</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">18</span>
+<span class="cline-any cline-yes">7</span>
+<span class="cline-any cline-yes">7</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3</span>
+<span class="cline-any cline-yes">2</span>
+<span class="cline-any cline-yes">3</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">7</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">18</span>
+<span class="cline-any cline-yes">6</span>
+<span class="cline-any cline-yes">13</span>
+<span class="cline-any cline-yes">5</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">18</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">18</span>
+<span class="cline-any cline-yes">2</span>
+<span class="cline-any cline-yes">2</span>
+<span class="cline-any cline-yes">2</span>
+<span class="cline-any cline-yes">2</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">18</span>
+<span class="cline-any cline-yes">2</span>
+<span class="cline-any cline-yes">2</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">18</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-yes">2</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">18</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">18</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/**
+ * syncData Service
+ *
+ * To get and post data.
+ */
+&nbsp;
+'use strict'
+&nbsp;
+contactManagerApp.service('SyncData', ['$http', '$q',
+    function($http, $q) {
+&nbsp;
+      var syncServiceObject = {};
+&nbsp;
+      syncServiceObject.allContacts = [];
+&nbsp;
+      syncServiceObject.getInitialData = function(url) {
+        var deferred = $q.defer();
+        $http.get(url)
+                .then(function(response) {
+                  if (syncServiceObject.allContacts.length &lt;= 0)
+                     syncServiceObject.allContacts = response.data;
+                  deferred.resolve(syncServiceObject.allContacts);
+                }).catch(function(data) {
+                  console.log('Error in reading JSON');
+                  deferred.reject(data);
+                });
+&nbsp;
+        return deferred.promise;
+      }; //getIntialData
+&nbsp;
+      syncServiceObject.getRequiredIndex = function(arr, id) {
+        for (var i = 0 ; i &lt; arr.length; i++) {
+          if (arr[i].id === parseInt(id))
+            return i;
+        }
+      };//getRequiredIndex
+&nbsp;
+      syncServiceObject.findSelectedContact = function(id) {
+        var selObj = {};
+        var index = syncServiceObject.getRequiredIndex(syncServiceObject.allContacts,id);
+        selObj = angular.merge({},syncServiceObject.allContacts[index]);
+        return selObj;
+      }; //findSelectedContact
+&nbsp;
+      syncServiceObject.addContact = function(contactObj) {
+        var id = syncServiceObject.allContacts.length + 1;
+        contactObj['id'] = id;
+        contactObj['avatar'] = './img/' + (Math.floor(Math.random() * 15) + 1) + '.jpg';
+        syncServiceObject.allContacts.push(contactObj);
+      }; //addContact
+&nbsp;
+      syncServiceObject.editContact = function(contactObj) {
+        var index = syncServiceObject.getRequiredIndex(syncServiceObject.allContacts,contactObj.id);
+        syncServiceObject.allContacts[index] = contactObj;
+      }; //editContact
+&nbsp;
+      syncServiceObject.deleteContact = function(contactObj) {
+        var index = syncServiceObject.getRequiredIndex(syncServiceObject.allContacts,contactObj.id);
+        syncServiceObject.allContacts.splice(index, 1);
+&nbsp;
+        for (var j = 0; j &lt; syncServiceObject.allContacts.length; j++)
+            syncServiceObject.allContacts[j].id = j + 1;
+&nbsp;
+        return syncServiceObject.allContacts;
+&nbsp;
+      }; //deleteContact
+&nbsp;
+      syncServiceObject.addToFavorites = function(contactObj) {
+        var index = syncServiceObject.getRequiredIndex(syncServiceObject.allContacts,contactObj.id);
+        syncServiceObject.allContacts[index].favourite = !(syncServiceObject.allContacts[index].favourite);
+        return syncServiceObject.allContacts;
+&nbsp;
+      }; //addToFavorites
+&nbsp;
+      return syncServiceObject;
+&nbsp;
+    }
+]);
+&nbsp;</pre></td></tr>
+</table></pre>
+
+</div>
+<div class="footer">
+    <div class="meta">Generated by <a href="http://istanbul-js.org/" target="_blank">istanbul</a> at Sun Sep 27 2015 14:41:23 GMT+0530 (India Standard Time)</div>
+</div>
+<script src="../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../sorter.js"></script>
+</body>
+</html>
